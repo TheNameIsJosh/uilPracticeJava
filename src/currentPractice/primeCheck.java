@@ -1,7 +1,7 @@
-package uil_pract;
+package currentPractice;
 import java.util.Scanner;
 
-public class prime_Check {
+public class primeCheck {
 	public static void primeCheck(String[] args) {
 		/* Take user input and determine if the number
 		 * is prime

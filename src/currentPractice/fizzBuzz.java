@@ -1,6 +1,5 @@
-package uil_pract;
-
-public class practice {
+package currentPractice;
+public class fizzBuzz {
 	public static void fizzBuzz(String[] args) {
 		/* Print numbers 1-20 but every multiple of 3 print "Fizz"
 		 * Every multiple of 5 print "Buzz"
