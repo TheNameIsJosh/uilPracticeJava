@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.io.PrintWriter;
 
 public class passFail {
-	public static void main(String[] args) {
+	public static void passFail(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		PrintWriter printWriter = new PrintWriter(System.out,true);
 		int score = scan.nextInt();
