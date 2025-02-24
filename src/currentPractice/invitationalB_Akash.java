@@ -19,11 +19,16 @@ public class invitationalB_Akash {
 		System.out.println(printed.toString());
 		
 		// Start the looping
-		for (int k = 2; k<size; k++) { // This loop goes through numbers 2 to size,
-									   // K is used to check if a number is divisible by something
+		for (int k = 2; k<size; k++) { 
+			// This loop goes through numbers 2 to  K,
+			// K is used to check if a number is divisible by something
+			
 			String temp = printed.toString(); // Temporary string to check back and see if the current string and the last one are the same
+			
 			printed.delete(0, printed.length()); // We clear the StringBuilder so as to not clutter it
-			for (int i =0; i<numbers.length;i++) { // This checks for divisibility of all numbers in our number list by checking number k
+			
+			for (int i =0; i<numbers.length;i++) { 
+				// This checks for divisibility of all numbers in our number list by checking number k
 				if (numbers[i] !=k && numbers[i] % k==0) {
 					numbers[i] = 0; // Sets it equal to 0 if divisible, so that we may ignore it when appending to StringBuilder
 				}
