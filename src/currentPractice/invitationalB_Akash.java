@@ -1,7 +1,7 @@
 package currentPractice;
 
 public class invitationalB_Akash {
-	public static void main(String[] args) {
+	public static void Akash(String[] args) {
 		// Initialize a "StringBuilder" which is needed for appending functions
 		StringBuilder printed = new StringBuilder();
 		
