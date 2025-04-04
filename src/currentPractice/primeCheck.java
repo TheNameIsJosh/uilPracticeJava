@@ -2,7 +2,7 @@ package currentPractice;
 import java.util.Scanner;
 
 public class primeCheck {
-	public static void primeCheck(String[] args) {
+	public primeCheck(String[] args) {
 		/* Take user input and determine if the number
 		 * is prime
 		*/
