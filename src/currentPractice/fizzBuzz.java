@@ -1,6 +1,6 @@
 package currentPractice;
 public class fizzBuzz {
-	public static void fizzBuzz(String[] args) {
+	public fizzBuzz(String[] args) {
 		/* Print numbers 1-20 but every multiple of 3 print "Fizz"
 		 * Every multiple of 5 print "Buzz"
 		 * Every multiple of 3 and five print "FizzBuzz"

@@ -6,7 +6,7 @@ import java.util.Scanner; // Import the scanner class to read the file
 
 public class InvitationalB_Amy {
 
-	public static void main(String[] args) throws FileNotFoundException {
+	public static void Amy(String[] args) throws FileNotFoundException {
 		File fileName = new File("amy.dat"); // Initialize a new file with the file name
 		
 		Scanner scan = new Scanner(fileName); // Initialize a new scanner with the file path (using the fileName)
