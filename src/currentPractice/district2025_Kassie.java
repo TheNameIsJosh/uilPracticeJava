@@ -5,7 +5,7 @@ import java.io.*;
 
 public class district2025_Kassie {
 
-	public static void main(String[] args) throws FileNotFoundException {
+	public static void Kassie(String[] args) throws FileNotFoundException {
 		Scanner scan = new Scanner(new File("kassie.dat"));
 		
 		int trials = scan.nextInt();
